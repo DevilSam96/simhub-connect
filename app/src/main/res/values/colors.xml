@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chiaro (valori usati quando il tema è chiaro) -->
+    <color name="bg">#F3F5F9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E7ECF3</color>
+    <color name="outline">#CBD5E1</color>
+    <color name="accent">#E85D22</color>
+    <color name="accent_soft">#0F9E8E</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="text_primary">#0E1720</color>
+    <color name="text_secondary">#55637A</color>
+    <color name="success">#16A34A</color>
+    <color name="warning">#B45309</color>
+    <color name="error">#DC2626</color>
+    <color name="icon_bg">#F3F5F9</color>
+    <color name="panel_scrim">#F7FFFFFF</color>
+    <!-- Icone sopra il nero del kiosk SimHub: restano chiare in entrambi i temi. -->
+    <color name="kiosk_on">#E9EFF7</color>
+
+    <!-- Accenti selezionabili, versione leggibile su fondo chiaro -->
+    <color name="palette_orange">#E85D22</color>
+    <color name="palette_teal">#0F9E8E</color>
+    <color name="palette_blue">#0284C7</color>
+    <color name="palette_purple">#7C3AED</color>
+    <color name="palette_lime">#4D7C0F</color>
+    <color name="palette_pink">#DB2777</color>
+</resources>

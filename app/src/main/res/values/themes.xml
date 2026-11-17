@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SimHubConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/on_accent</item>
+        <item name="colorPrimaryContainer">@color/surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent_soft</item>
+        <item name="colorOnSecondary">@color/on_accent</item>
+        <item name="colorSecondaryContainer">@color/surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/text_primary</item>
+        <item name="colorTertiary">@color/accent_soft</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/light_system_bars</item>
+    </style>
+
+    <!-- Accenti: cambiano colorPrimary/colorSecondary lasciando il resto neutro. -->
+    <style name="Theme.SimHubConnect.AccentOrange" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_orange</item>
+        <item name="colorSecondary">@color/accent_soft</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.AccentTeal" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_teal</item>
+        <item name="colorSecondary">@color/palette_blue</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.AccentBlue" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_blue</item>
+        <item name="colorSecondary">@color/palette_teal</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.AccentPurple" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_purple</item>
+        <item name="colorSecondary">@color/palette_pink</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.AccentLime" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_lime</item>
+        <item name="colorSecondary">@color/palette_teal</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.AccentPink" parent="Theme.SimHubConnect">
+        <item name="colorPrimary">@color/palette_pink</item>
+        <item name="colorSecondary">@color/palette_purple</item>
+    </style>
+
+    <style name="Theme.SimHubConnect.Fullscreen" parent="Theme.SimHubConnect">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.SimHubConnect.Toolbar" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

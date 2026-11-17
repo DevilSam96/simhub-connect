@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimHub Connect</string>
+
+    <!-- Toolbar / connection states -->
+    <string name="subtitle_network">%1$s · %2$s</string>
+    <string name="subtitle_scanned">Scansione completata in %1$d ms</string>
+    <string name="subtitle_offline">Nessuna rete locale</string>
+
+    <string name="status_idle_title">Pronto per la ricerca</string>
+    <string name="status_idle_detail">SimHub verrà cercato sulla rete locale.</string>
+    <string name="status_scanning_title">Ricerca di SimHub in corso…</string>
+    <string name="status_scanning_detail">%1$d di %2$d indirizzi · porta %3$d</string>
+    <string name="status_found_title">SimHub trovato</string>
+    <string name="status_found_detail_one">%1$s · %2$d ms · apri la dashboard dalla lista</string>
+    <string name="status_found_detail_many">%1$d server SimHub raggiungibili</string>
+    <string name="status_http_title">Altri dispositivi trovati</string>
+    <string name="status_http_detail">Qualcosa risponde sulla porta %1$d ma non sembra SimHub. Controlla la porta nelle impostazioni di SimHub o inserisci l’IP manualmente.</string>
+    <string name="status_empty_title">Nessun SimHub trovato</string>
+    <string name="status_empty_detail">Assicurati che SimHub sia aperto con il server web delle dashboard attivo, che il firewall di Windows consenta la porta %1$d e che il tablet sia sulla stessa rete Wi-Fi del PC.</string>
+    <string name="status_no_network_title">Nessuna rete locale</string>
+    <string name="status_no_network_detail">Collega il dispositivo alla stessa rete Wi-Fi (o Ethernet) del PC su cui gira SimHub.</string>
+    <string name="status_error_title">Ricerca non riuscita</string>
+    <string name="status_error_detail">%1$s</string>
+    <string name="status_verifying_title">Connessione a %1$s…</string>
+    <string name="status_verifying_detail">Verifica del server web in corso.</string>
+
+    <!-- Main screen -->
+    <string name="scan_again">Scansiona</string>
+    <string name="manual_ip">IP manuale</string>
+    <string name="home_subtitle">SimHub sulla rete locale</string>
+    <string name="tile_live_title">Dashboard live</string>
+    <string name="tile_live_sub">5 stili nativi</string>
+    <string name="tile_recordings_title">Registrazioni</string>
+    <string name="tile_recordings_sub">CSV e analisi</string>
+    <string name="tile_web_title">Dashboard SimHub</string>
+    <string name="tile_web_sub">Web dash sul tablet</string>
+    <string name="tile_settings_title">Impostazioni</string>
+    <string name="tile_settings_sub">Tema e colori</string>
+    <string name="web_no_server">Nessun server SimHub memorizzato. Scansiona la rete oppure inserisci l’IP del PC.</string>
+    <string name="menu_settings">Impostazioni</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_theme_title">Tema</string>
+    <string name="settings_theme_desc">Aspetto generale dell’app.</string>
+    <string name="theme_dark">Scuro</string>
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_system">Sistema</string>
+    <string name="settings_app_color_title">Colore dell’app</string>
+    <string name="settings_app_color_desc">Pulsanti, icone e dettagli dell’interfaccia.</string>
+    <string name="settings_dash_color_title">Colore delle dashboard</string>
+    <string name="settings_dash_color_desc">Accento usato da tutte le dashboard live.</string>
+    <string name="settings_footer">Le dashboard mantengono lo stile della disciplina: il colore scelto sostituisce solo l’accento principale.</string>
+    <string name="servers_title">Server trovati</string>
+    <string name="empty_list">I server SimHub individuati compariranno qui.</string>
+    <string name="list_hint">Suggerimento: in SimHub apri Dash Studio → Remote access per verificare che il server web sia attivo.</string>
+    <string name="server_address">%1$s:%2$d</string>
+    <string name="meta_last_used">Ultimo usato</string>
+    <string name="meta_last_used_latency">Ultimo usato · %1$d ms</string>
+    <string name="meta_simhub">SimHub · %1$d ms</string>
+    <string name="meta_other">Server non riconosciuto · %1$d ms</string>
+
+    <!-- Dialogs -->
+    <string name="manual_title">Connessione manuale</string>
+    <string name="manual_hint">Indirizzo IP o host</string>
+    <string name="manual_port_hint">Porta</string>
+    <string name="manual_invalid_ip">Inserisci un indirizzo valido (es. 192.168.1.50)</string>
+    <string name="manual_invalid_port">Porta non valida</string>
+    <string name="action_connect">Connetti</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_save">Salva</string>
+    <string name="action_close">Chiudi</string>
+    <string name="action_retry">Riprova</string>
+    <string name="action_delete">Elimina</string>
+    <string name="action_share">Condividi</string>
+    <string name="back">Indietro</string>
+    <string name="connect_failed_title">Server non raggiungibile</string>
+    <string name="connect_failed_detail">Impossibile raggiungere %1$s sulla porta %2$d. Controlla l’indirizzo e che SimHub sia in esecuzione.</string>
+    <string name="port_dialog_title">Porta del server web SimHub</string>
+    <string name="port_dialog_message">La porta predefinita di SimHub è 8888. Modificala solo se l’hai cambiata nelle impostazioni di SimHub.</string>
+    <string name="port_invalid">Inserisci una porta tra 1 e 65535</string>
+    <string name="menu_port">Porta SimHub</string>
+    <string name="menu_help">Come funziona</string>
+    <string name="menu_about">Informazioni</string>
+    <string name="help_title">Come funziona</string>
+    <string name="help_message">1. Sul PC apri SimHub e scegli Dash Studio.\n2. Apri Remote access (Browser / Phone) e verifica che il server web sia attivo: la porta predefinita è 8888.\n3. Collega il tablet alla stessa rete Wi-Fi del PC.\n4. Se Windows lo chiede, consenti a SimHub di attraversare il firewall per le reti private.\n\nL’app cerca il server sulla rete locale e apre le dashboard a schermo intero. Se la ricerca non trova nulla, inserisci l’IP del PC manualmente.</string>
+    <string name="about_title">SimHub Connect</string>
+    <string name="about_message">Versione %1$s\n\nApp Android non ufficiale per visualizzare le dashboard di SimHub sul tablet. Trova automaticamente il server web di SimHub sulla rete locale, senza dover configurare l’IP a mano.</string>
+
+    <!-- Web dashboard -->
+    <string name="dashboard_error_title">Connessione persa</string>
+    <string name="dashboard_error_generic">Errore di rete</string>
+    <string name="dashboard_change_pc">Cambia PC</string>
+    <string name="dashboard_reload">Ricarica</string>
+    <string name="dashboard_list">Lista dashboard</string>
+    <string name="dashboard_browser">Apri nel browser</string>
+    <string name="dashboard_menu_desc">Menu dashboard</string>
+
+    <!-- Native live dashboards -->
+    <string name="live_title">Dashboard live</string>
+    <string name="telemetry_live_subtitle">5 dashboard integrate</string>
+    <string name="dash_gt3">GT3</string>
+    <string name="dash_formula">Formula</string>
+    <string name="dash_rally">Rally</string>
+    <string name="dash_endurance">Endurance</string>
+    <string name="dash_neon">Neon</string>
+    <string name="telemetry_source">%1$s · telemetria</string>
+    <string name="telemetry_no_server">Nessun server SimHub</string>
+    <string name="telemetry_no_server_detail">Torna alla schermata principale, cerca SimHub e apri una dashboard: la telemetria usa lo stesso server.</string>
+    <string name="telemetry_waiting_title">In attesa di telemetria</string>
+    <string name="telemetry_waiting_detail">SimHub è raggiungibile ma non sta ricevendo dati dal gioco. Avvia la simulazione e entra in pista.</string>
+    <string name="telemetry_offline_title">Telemetria non disponibile</string>
+    <string name="telemetry_offline_detail">SimHub non risponde su /api/GetGamedata. Verifica che SimHub sia aperto, aggiornato e raggiungibile sulla rete.</string>
+    <string name="demo_button">Modalità demo</string>
+    <string name="demo_toggle">Attiva o disattiva la modalità demo</string>
+    <string name="recording_badge">● REC</string>
+
+    <!-- Telemetry recordings -->
+    <string name="recordings_title">Registrazioni telemetria</string>
+    <string name="status_live">Live</string>
+    <string name="status_waiting">In attesa</string>
+    <string name="status_offline">Offline</string>
+    <string name="record_start">Avvia registrazione</string>
+    <string name="record_stop">Ferma registrazione</string>
+    <string name="record_active">Registrazione attiva · %1$d campioni</string>
+    <string name="record_idle">Nessuna registrazione attiva</string>
+    <string name="record_hint">Viene salvato un CSV con velocità, RPM, marcia, pedali, carburante, posizione, tempi sul giro e coordinate del tracciato. Tocca un file per aprire l’analisi completa.</string>
+    <string name="record_error">Impossibile creare il file di registrazione.</string>
+    <string name="record_no_server">Collega prima un server SimHub dalla schermata principale.</string>
+    <string name="recordings_files">File registrati</string>
+    <string name="recordings_count">%1$d file</string>
+    <string name="recordings_empty">Nessuna registrazione. Avvia la registrazione durante una gara.</string>
+    <!-- Telemetry analysis -->
+    <string name="analysis_title">Analisi telemetria</string>
+    <string name="analysis_error">Impossibile leggere questa registrazione.</string>
+    <string name="analysis_unknown_track">Circuito non registrato</string>
+    <string name="analysis_unknown_car">Auto non registrata</string>
+    <string name="analysis_conditions_format">Aria %1$s · Asfalto %2$s · Bagnato %3$s</string>
+    <string name="analysis_meta">%1$d giri · %2$d campioni</string>
+    <string name="analysis_best_lap">GIRO MIGLIORE</string>
+    <string name="analysis_ideal_lap">TEMPO IDEALE</string>
+    <string name="analysis_delta">DELTA</string>
+    <string name="analysis_laps_title">Giri registrati</string>
+    <string name="analysis_lap_chip">Giro %1$d · %2$s</string>
+    <string name="analysis_lap_row">Giro %1$d</string>
+    <string name="analysis_lap_best">MIGLIORE</string>
+    <string name="analysis_map_title">Mappa del circuito</string>
+    <string name="analysis_map_desc">Tracciato ricostruito dalle coordinate registrate.</string>
+    <string name="analysis_map_empty">Questa registrazione non contiene le coordinate dell’auto, quindi la mappa non è disponibile. Servono registrazioni fatte con una versione di SimHub che espone la posizione (PositionX/Z o LapDistPct).</string>
+    <string name="analysis_map_legend">Blu = punto più lento · Verde = medio · Rosso = punto più veloce</string>
+    <string name="analysis_behavior_title">Come si comporta l’auto</string>
+    <string name="analysis_chart_desc">Velocità del giro selezionato con il giro migliore sullo sfondo, acceleratore e freno.</string>
+    <string name="analysis_throttle">Acceleratore</string>
+    <string name="analysis_brake">Freno</string>
+    <string name="analysis_full_throttle">Pieno gas</string>
+    <string name="analysis_max_speed">Velocità max</string>
+    <string name="analysis_gears">Marce usate</string>
+    <string name="analysis_tyres">Gomme</string>
+    <string name="analysis_tyre_row">media %1$s · max %2$s</string>
+    <string name="analysis_ideal_title">Tempi ideali e confronto</string>
+    <string name="analysis_ideal_desc">Il tempo ideale somma i migliori tratti dei giri registrati: è il limite raggiungibile con le stesse condizioni della sessione.</string>
+    <string name="analysis_ideal_unavailable">Servono almeno due giri completi con la distanza percorso perché si possa calcolare il tempo ideale. Registra qualche giro in più nella stessa sessione.</string>
+    <string name="analysis_online_title">Confronta con altri piloti</string>
+    <string name="analysis_online_desc">Apre i siti dove la community condivide giri e telemetria per %1$s: cerca circuito e auto per vedere come sono andati gli altri.</string>
+    <string name="analysis_online_tracktitan">Track Titan · leaderboard</string>
+    <string name="analysis_online_garage61">Garage 61 · giri condivisi</string>
+    <string name="analysis_online_search">Cerca tempi sul web</string>
+    <string name="analysis_online_note">Track Titan e Garage 61 richiedono un account gratuito e funzionano meglio con i titoli supportati (iRacing, ACC, Assetto Corsa). La ricerca web è il ripiego universale.</string>
+    <string name="analysis_search_suffix">hotlap tempi leaderboard</string>
+
+    <string name="delete_title">Eliminare la registrazione?</string>
+    <string name="delete_message">Il file %1$s verrà eliminato definitivamente.</string>
+</resources>

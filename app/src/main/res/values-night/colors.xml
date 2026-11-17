@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scuro (valori usati quando il tema è scuro) -->
+    <color name="bg">#0A0E13</color>
+    <color name="surface">#131A23</color>
+    <color name="surface_variant">#1B2531</color>
+    <color name="outline">#27313D</color>
+    <color name="accent">#FF6B2C</color>
+    <color name="accent_soft">#2DD4BF</color>
+    <color name="on_accent">#141414</color>
+    <color name="text_primary">#E9EFF7</color>
+    <color name="text_secondary">#93A3B8</color>
+    <color name="success">#35D07F</color>
+    <color name="warning">#FFC24B</color>
+    <color name="error">#FF5C5C</color>
+    <color name="icon_bg">#0A0E13</color>
+    <color name="panel_scrim">#F2131A23</color>
+    <color name="kiosk_on">#E9EFF7</color>
+
+    <!-- Accenti selezionabili, versione brillante per fondo scuro -->
+    <color name="palette_orange">#FF6B2C</color>
+    <color name="palette_teal">#2DD4BF</color>
+    <color name="palette_blue">#38BDF8</color>
+    <color name="palette_purple">#A78BFA</color>
+    <color name="palette_lime">#B6FF3B</color>
+    <color name="palette_pink">#FF2ED6</color>
+</resources>
